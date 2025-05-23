@@ -46,6 +46,10 @@ header {
     z-index: 999;
 }
 
+header img:nth-child(2) {
+    display: none;
+}
+
 header menu {
     display: flex;
     justify-content: space-between;
@@ -370,6 +374,7 @@ footer {
 }
 
 /* media é qualquer meio de saida */
+/* ABRIR COM O IPAD AIR */
 @media (max-width:1024px) {
     :root {
         --default-padding: 0 48px;
@@ -469,5 +474,79 @@ footer {
 
     .copy-right {
         margin-bottom: 64px;
+    }
+}
+
+/* ABRIR COM O SAMSUNG GALAXY S8+ */
+@media (max-width: 768px) {
+
+    header {
+        top: 16px;
+        padding: 0 12px;
+    }
+
+    .logo-padrao {
+        display: none;
+    }
+
+    header img:nth-child(2) {
+        display: block;
+    }
+
+    header menu {
+        gap: 0;
+        font-size: 1rem;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    header button img {
+        display: inline;
+    }
+
+    .home {
+        background-color: var(--primary-color);
+        background-image: url(./img/background-mobile.png);
+        background-size: cover;
+    }
+
+    .home .container-slogan {
+        color: #fff;
+        align-items: start;
+        justify-content: end;
+    }
+
+    .home .container-slogan img {
+        display: none;
+    }
+
+    .home h2 span {
+        color: var(--primary-color);
+        background-color: #fff;
+    }
+
+    .slogan {
+        font-size: 2rem;
+    }
+
+    .cardapio .section-title {
+        padding-top: 28px;
+    }
+
+    .cardapio-item .item-text h4 {
+        font-size: 22px;
+    }
+
+    .cardapio-item .item-text a {
+        display: none;
+    }
+
+    .pizza:nth-child(2),
+    .pizza:nth-child(6) {
+        display: none;
+    }
+
+    .servico-item p {
+        display: none;
     }
 }
