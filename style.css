@@ -16,14 +16,21 @@ a {
     color: inherit;
 }
 
-ul, ol, li {
+ul,
+ol,
+li {
     list-style: none;
 }
 
+/* define o comportamento do scroll do site completo */
+html {
+    scroll-behavior: smooth;
+}
+
 body {
-   
-   font-family: "Poppins", sans-serif;
-   background-color: var(--secundary-color);
+
+    font-family: "Poppins", sans-serif;
+    background-color: var(--secundary-color);
 }
 
 header {
@@ -35,6 +42,8 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: var(--default-padding);
+    background-color: #fff5;
+    z-index: 999;
 }
 
 header menu {
@@ -358,4 +367,107 @@ footer {
     display: grid;
     place-content: center;
     border-top: 2px solid var(--secundary-color);
+}
+
+/* media é qualquer meio de saida */
+@media (max-width:1024px) {
+    :root {
+        --default-padding: 0 48px;
+    }
+
+    header {
+        position: absolute;
+        left: 0;
+        top: 64px;
+        background-color: transparent;
+    }
+
+    header menu {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100vw;
+        height: 64px;
+        background-color: var(--primary-color);
+        color: #fff;
+        justify-content: space-evenly;
+    }
+
+    header li:hover {
+        color: var(--primary-color);
+    }
+
+    .home {
+        grid-template-rows: none;
+    }
+
+    .home .container-produtos {
+        display: none;
+    }
+
+    .cardapio-item {
+        border: none;
+    }
+
+    .container-slogan {
+        flex-direction: column-reverse;
+        gap: 128px;
+        align-items: center;
+    }
+
+    .container-slogan .slogan {
+        width: 100%;
+    }
+
+    .container-produtos {
+        gap: 32px;
+    }
+
+    .pizza {
+        width: 100%;
+    }
+
+    .pizza:nth-child(3),
+    .pizza:nth-child(4),
+    .pizza:nth-child(5) {
+        display: none;
+    }
+
+    .servicos-container {
+        flex-direction: column;
+        gap: 32px;
+    }
+
+    .servico-item {
+        height: 260px;
+        width: 100%;
+        /* evitar que os itens vazem para a fora */
+        flex-wrap: wrap;
+    }
+
+    .servico-item p {
+        width: 330px;
+    }
+
+    .contatos-container {
+        flex-direction: column;
+        flex-wrap: wrap;
+        height: 400px;
+        justify-content: space-around;
+        align-items: center;
+        gap: 32px;
+
+    }
+
+    .contato {
+        padding: 0;
+    }
+
+    .contato:nth-child(2) {
+        display: none;
+    }
+
+    .copy-right {
+        margin-bottom: 64px;
+    }
 }
