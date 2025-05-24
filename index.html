@@ -1,343 +1,358 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-        rel="stylesheet">
-    <link rel="stylesheet" href="./style.css">
-    <script src="https://kit.fontawesome.com/4252cc7347.js" crossorigin="anonymous"></script>
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <script
+      src="https://kit.fontawesome.com/4252cc7347.js"
+      crossorigin="anonymous"
+    ></script>
     <title>Tony Pizzaria</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <header>
-        <img class="logo-padrao" src="./img/logo.svg" alt="logo Tony Pizzaria">
-        <img src="./img/logo-branco.svg" alt="logo Tony Pizzaria">
-        <menu>
-            <li>
-                <a href="#home">Home</a>
-            </li>
-            <li>
-                <a href="#cardapio">Cardápio</a>
-            </li>
-            <li>
-                <a href="#servicos">Serviços</a>
-            </li>
-            <li>
-                <a href="#contatos">Contatos</a>
-            </li>
-        </menu>
-        <button type="button" class="login">
-            <img src="./img/icon-user.svg" alt="Icone usuário">
-            <span>LOGIN</span>
-        </button>
+      <img class="logo-padrao" src="./img/logo.svg" alt="logo Tony Pizzaria" />
+      <img src="./img/logo-branco.svg" alt="logo Tony Pizzaria" />
+      <menu>
+        <li>
+          <a href="#home">Home</a>
+        </li>
+        <li>
+          <a href="#cardapio">Cardápio</a>
+        </li>
+        <li>
+          <a href="#servicos">Serviços</a>
+        </li>
+        <li>
+          <a href="#contatos">Contatos</a>
+        </li>
+      </menu>
+      <button type="button" class="login">
+        <img src="./img/icon-user.svg" alt="Icone usuário" />
+        <span>LOGIN</span>
+      </button>
     </header>
     <main>
-        <section class="home" id="home">
-            <div class="container-slogan">
-                <h2 class="slogan">
-                    Não é apenas uma <span>Pizza,</span> é uma experiência!
-                </h2>
-                <img src="./img/pizza-home.png" alt="pizza">
+      <section class="home" id="home">
+        <div class="container-slogan">
+          <h2 class="slogan">
+            Não é apenas uma <span>Pizza,</span> é uma experiência!
+          </h2>
+          <img src="./img/pizza-home.png" alt="pizza" />
+        </div>
+        <div class="container-produtos">
+          <div class="pizza">
+            <div class="add-pizza">+</div>
+            <img src="./img/pizza1.png" alt="pizza" />
+            <div class="overflow">
+              <div class="container-info">
+                <span>Pizza de calabreza com queijo</span>
+                <span>R$ 16,00</span>
+              </div>
             </div>
-            <div class="container-produtos">
-                <div class="pizza">
-                    <div class="add-pizza">+</div>
-                    <img src="./img/pizza1.png" alt="pizza">
-                    <div class="overflow">
-                        <div class="container-info">
-                            <span>Pizza de calabreza com queijo</span>
-                            <span>R$ 16,00</span>
-                        </div>
-                    </div>
-                </div>
+          </div>
 
-                <div class="pizza">
-                    <div class="add-pizza">+</div>
-                    <img src="./img/pizza2.png" alt="pizza">
-                    <div class="overflow">
-                        <div class="container-info">
-                            <span>Pizza de calabreza com queijo</span>
-                            <span>R$ 16,00</span>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="pizza">
-                    <div class="add-pizza">+</div>
-                    <img src="./img/pizza3.png" alt="pizza">
-                    <div class="overflow">
-                        <div class="container-info">
-                            <span>Pizza de calabreza com queijo</span>
-                            <span>R$ 16,00</span>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="pizza">
-                    <div class="add-pizza">+</div>
-                    <img src="./img/pizza4.png" alt="pizza">
-                    <div class="overflow">
-                        <div class="container-info">
-                            <span>Pizza de calabreza com queijo</span>
-                            <span>R$ 16,00</span>
-                        </div>
-                    </div>
-                </div>
+          <div class="pizza">
+            <div class="add-pizza">+</div>
+            <img src="./img/pizza2.png" alt="pizza" />
+            <div class="overflow">
+              <div class="container-info">
+                <span>Pizza de calabreza com queijo</span>
+                <span>R$ 16,00</span>
+              </div>
             </div>
-        </section>
-        <section class="cardapio" id="cardapio">
-            <div class="section-title">
-                <img src="./img/tony-icon.svg" alt="tony icon">
-                <h3>CARDÁPIO</h3>
-            </div>
-            <div class="cardapio-item">
-                <div class="item-text">
-                    <h4>Minhas pizzas favoritas</h4>
-                    <a href="">VER TUDO</a>
-                </div>
-                <div class="container-produtos">
-                    <div class="pizza">
-                        <div class="add-pizza">+</div>
-                        <img src="./img/pizza1.png" alt="pizza">
-                        <div class="overflow">
-                            <div class="container-info">
-                                <span>Pizza de calabreza com queijo</span>
-                                <span>R$ 16,00</span>
-                            </div>
-                        </div>
-                    </div>
+          </div>
 
-                    <div class="pizza">
-                        <div class="add-pizza">+</div>
-                        <img src="./img/pizza2.png" alt="pizza">
-                        <div class="overflow">
-                            <div class="container-info">
-                                <span>Pizza de calabreza com queijo</span>
-                                <span>R$ 16,00</span>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="pizza">
-                        <div class="add-pizza">+</div>
-                        <img src="./img/pizza3.png" alt="pizza">
-                        <div class="overflow">
-                            <div class="container-info">
-                                <span>Pizza de calabreza com queijo</span>
-                                <span>R$ 16,00</span>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="pizza">
-                        <div class="add-pizza">+</div>
-                        <img src="./img/pizza4.png" alt="pizza">
-                        <div class="overflow">
-                            <div class="container-info">
-                                <span>Pizza de calabreza com queijo</span>
-                                <span>R$ 16,00</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+          <div class="pizza">
+            <div class="add-pizza">+</div>
+            <img src="./img/pizza3.png" alt="pizza" />
+            <div class="overflow">
+              <div class="container-info">
+                <span>Pizza de calabreza com queijo</span>
+                <span>R$ 16,00</span>
+              </div>
             </div>
-            <div class="cardapio-item">
-                <div class="item-text">
-                    <h4>Menu</h4>
-                    <a href="">VER TUDO</a>
-                </div>
-                <div class="container-produtos">
-                    <div class="pizza">
-                        <div class="add-pizza">+</div>
-                        <img src="./img/pizza1.png" alt="pizza">
-                        <div class="overflow">
-                            <div class="container-info">
-                                <span>Pizza de calabreza com queijo</span>
-                                <span>R$ 16,00</span>
-                            </div>
-                        </div>
-                    </div>
+          </div>
 
-                    <div class="pizza">
-                        <div class="add-pizza">+</div>
-                        <img src="./img/pizza2.png" alt="pizza">
-                        <div class="overflow">
-                            <div class="container-info">
-                                <span>Pizza de calabreza com queijo</span>
-                                <span>R$ 16,00</span>
-                            </div>
-                        </div>
-                    </div>
+          <div class="pizza">
+            <div class="add-pizza">+</div>
+            <img src="./img/pizza4.png" alt="pizza" />
+            <div class="overflow">
+              <div class="container-info">
+                <span>Pizza de calabreza com queijo</span>
+                <span>R$ 16,00</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="cardapio" id="cardapio">
+        <div class="section-title">
+          <img src="./img/tony-icon.svg" alt="tony icon" />
+          <h3>CARDÁPIO</h3>
+        </div>
+        <div class="cardapio-item">
+          <div class="item-text">
+            <h4>Minhas pizzas favoritas</h4>
+            <a href="">VER TUDO</a>
+          </div>
+          <div class="container-produtos">
+            <div class="pizza">
+              <div class="add-pizza">+</div>
+              <img src="./img/pizza1.png" alt="pizza" />
+              <div class="overflow">
+                <div class="container-info">
+                  <span>Pizza de calabreza com queijo</span>
+                  <span>R$ 16,00</span>
+                </div>
+              </div>
+            </div>
 
-                    <div class="pizza">
-                        <div class="add-pizza">+</div>
-                        <img src="./img/pizza3.png" alt="pizza">
-                        <div class="overflow">
-                            <div class="container-info">
-                                <span>Pizza de calabreza com queijo</span>
-                                <span>R$ 16,00</span>
-                            </div>
-                        </div>
-                    </div>
+            <div class="pizza">
+              <div class="add-pizza">+</div>
+              <img src="./img/pizza2.png" alt="pizza" />
+              <div class="overflow">
+                <div class="container-info">
+                  <span>Pizza de calabreza com queijo</span>
+                  <span>R$ 16,00</span>
+                </div>
+              </div>
+            </div>
 
-                    <div class="pizza">
-                        <div class="add-pizza">+</div>
-                        <img src="./img/pizza4.png" alt="pizza">
-                        <div class="overflow">
-                            <div class="container-info">
-                                <span>Pizza de calabreza com queijo</span>
-                                <span>R$ 16,00</span>
-                            </div>
-                        </div>
-                    </div>
+            <div class="pizza">
+              <div class="add-pizza">+</div>
+              <img src="./img/pizza3.png" alt="pizza" />
+              <div class="overflow">
+                <div class="container-info">
+                  <span>Pizza de calabreza com queijo</span>
+                  <span>R$ 16,00</span>
                 </div>
+              </div>
             </div>
-            <div class="cardapio-item">
-                <div class="item-text">
-                    <h4>Bebidas</h4>
-                    <a href="">VER TUDO</a>
+
+            <div class="pizza">
+              <div class="add-pizza">+</div>
+              <img src="./img/pizza4.png" alt="pizza" />
+              <div class="overflow">
+                <div class="container-info">
+                  <span>Pizza de calabreza com queijo</span>
+                  <span>R$ 16,00</span>
                 </div>
-                <div class="container-produtos">
-                    <div class="pizza bebida">
-                        <div class="add-pizza">+</div>
-                        <img src="./img/coca-cola.png" alt="pizza">
-                        <p class="preco">R$ 12,00</p>
-                        <p class="descricao">Coca-Cola sem Açúcar 1L</p>
-                    </div>
-                    <div class="pizza bebida">
-                        <div class="add-pizza">+</div>
-                        <img src="./img/coca-cola.png" alt="pizza">
-                        <p class="preco">R$ 12,00</p>
-                        <p class="descricao">Coca-Cola sem Açúcar 1L</p>
-                    </div>
-                    <div class="pizza bebida">
-                        <div class="add-pizza">+</div>
-                        <img src="./img/coca-cola.png" alt="pizza">
-                        <p class="preco">R$ 12,00</p>
-                        <p class="descricao">Coca-Cola sem Açúcar 1L</p>
-                    </div>
-                    <div class="pizza bebida">
-                        <div class="add-pizza">+</div>
-                        <img src="./img/coca-cola.png" alt="pizza">
-                        <p class="preco">R$ 12,00</p>
-                        <p class="descricao">Coca-Cola sem Açúcar 1L</p>
-                    </div>
-                    <div class="pizza bebida">
-                        <div class="add-pizza">+</div>
-                        <img src="./img/coca-cola.png" alt="pizza">
-                        <p class="preco">R$ 12,00</p>
-                        <p class="descricao">Coca-Cola sem Açúcar 1L</p>
-                    </div>
-                    <div class="pizza bebida">
-                        <div class="add-pizza">+</div>
-                        <img src="./img/coca-cola.png" alt="pizza">
-                        <p class="preco">R$ 12,00</p>
-                        <p class="descricao">Coca-Cola sem Açúcar 1L</p>
-                    </div>
-                </div>
+              </div>
             </div>
-        </section>
-        <section class="servicos" id="servicos">
-            <div class="section-title">
-                <img src="./img/tony-icon.svg" alt="tony icon">
-                <h3>SERVIÇOS</h3>
+          </div>
+        </div>
+        <div class="cardapio-item">
+          <div class="item-text">
+            <h4>Menu</h4>
+            <a href="">VER TUDO</a>
+          </div>
+          <div class="container-produtos">
+            <div class="pizza">
+              <div class="add-pizza">+</div>
+              <img src="./img/pizza1.png" alt="pizza" />
+              <div class="overflow">
+                <div class="container-info">
+                  <span>Pizza de calabreza com queijo</span>
+                  <span>R$ 16,00</span>
+                </div>
+              </div>
             </div>
-            <div class="servicos-container">
-                <div class="servico-item">
-                    <img src="./img/icon-fast-food.svg" alt="">
-                    <h4>Fast Food</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Erat morbi viverra bibendum in sit. Ac semper arcu facilisis ornare suspendisse. Eget at tincidunt neque sapien enim tristique eu.</p>
+
+            <div class="pizza">
+              <div class="add-pizza">+</div>
+              <img src="./img/pizza2.png" alt="pizza" />
+              <div class="overflow">
+                <div class="container-info">
+                  <span>Pizza de calabreza com queijo</span>
+                  <span>R$ 16,00</span>
                 </div>
-                <div class="servico-item">
-                    <img src="./img/icon-drive-thru.svg" alt="">
-                    <h4>Drive Thru</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Erat morbi viverra bibendum in sit. Ac semper arcu facilisis ornare suspendisse. Eget at tincidunt neque sapien enim tristique eu.</p>
-                </div>
-                <div class="servico-item">
-                    <img src="./img/icon-deliveries.svg" alt="">
-                    <h4>Deliveries</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Erat morbi viverra bibendum in sit. Ac semper arcu facilisis ornare suspendisse. Eget at tincidunt neque sapien enim tristique eu.</p>
-                </div>
+              </div>
             </div>
-        </section>
+
+            <div class="pizza">
+              <div class="add-pizza">+</div>
+              <img src="./img/pizza3.png" alt="pizza" />
+              <div class="overflow">
+                <div class="container-info">
+                  <span>Pizza de calabreza com queijo</span>
+                  <span>R$ 16,00</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="pizza">
+              <div class="add-pizza">+</div>
+              <img src="./img/pizza4.png" alt="pizza" />
+              <div class="overflow">
+                <div class="container-info">
+                  <span>Pizza de calabreza com queijo</span>
+                  <span>R$ 16,00</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="cardapio-item">
+          <div class="item-text">
+            <h4>Bebidas</h4>
+            <a href="">VER TUDO</a>
+          </div>
+          <div class="container-produtos">
+            <div class="pizza bebida">
+              <div class="add-pizza">+</div>
+              <img src="./img/coca-cola.png" alt="pizza" />
+              <p class="preco">R$ 12,00</p>
+              <p class="descricao">Coca-Cola sem Açúcar 1L</p>
+            </div>
+            <div class="pizza bebida">
+              <div class="add-pizza">+</div>
+              <img src="./img/coca-cola.png" alt="pizza" />
+              <p class="preco">R$ 12,00</p>
+              <p class="descricao">Coca-Cola sem Açúcar 1L</p>
+            </div>
+            <div class="pizza bebida">
+              <div class="add-pizza">+</div>
+              <img src="./img/coca-cola.png" alt="pizza" />
+              <p class="preco">R$ 12,00</p>
+              <p class="descricao">Coca-Cola sem Açúcar 1L</p>
+            </div>
+            <div class="pizza bebida">
+              <div class="add-pizza">+</div>
+              <img src="./img/coca-cola.png" alt="pizza" />
+              <p class="preco">R$ 12,00</p>
+              <p class="descricao">Coca-Cola sem Açúcar 1L</p>
+            </div>
+            <div class="pizza bebida">
+              <div class="add-pizza">+</div>
+              <img src="./img/coca-cola.png" alt="pizza" />
+              <p class="preco">R$ 12,00</p>
+              <p class="descricao">Coca-Cola sem Açúcar 1L</p>
+            </div>
+            <div class="pizza bebida">
+              <div class="add-pizza">+</div>
+              <img src="./img/coca-cola.png" alt="pizza" />
+              <p class="preco">R$ 12,00</p>
+              <p class="descricao">Coca-Cola sem Açúcar 1L</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="servicos" id="servicos">
+        <div class="section-title">
+          <img src="./img/tony-icon.svg" alt="tony icon" />
+          <h3>SERVIÇOS</h3>
+        </div>
+        <div class="servicos-container">
+          <div class="servico-item">
+            <img src="./img/icon-fast-food.svg" alt="" />
+            <h4>Fast Food</h4>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Erat
+              morbi viverra bibendum in sit. Ac semper arcu facilisis ornare
+              suspendisse. Eget at tincidunt neque sapien enim tristique eu.
+            </p>
+          </div>
+          <div class="servico-item">
+            <img src="./img/icon-drive-thru.svg" alt="" />
+            <h4>Drive Thru</h4>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Erat
+              morbi viverra bibendum in sit. Ac semper arcu facilisis ornare
+              suspendisse. Eget at tincidunt neque sapien enim tristique eu.
+            </p>
+          </div>
+          <div class="servico-item">
+            <img src="./img/icon-deliveries.svg" alt="" />
+            <h4>Deliveries</h4>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Erat
+              morbi viverra bibendum in sit. Ac semper arcu facilisis ornare
+              suspendisse. Eget at tincidunt neque sapien enim tristique eu.
+            </p>
+          </div>
+        </div>
+      </section>
     </main>
     <footer id="contatos">
-        <div class="contatos-container">
-            <div class="contato logo">
-                <img src="./img/logo-branco.svg" alt="">
-            </div>
-            <div class="contato">
-                <h4>Links</h4>
-                <menu>
-                    <li>
-                        <a href="#">Home</a>
-                    </li>
-                    <li>
-                        <a href="#">Cardápio</a>
-                    </li>
-                    <li>
-                        <a href="#">Serviço</a>
-                    </li>
-                    <li>
-                        <a href="#">Contato</a>
-                    </li>
-                    <li>
-                        <a href="#">Login</a>
-                    </li>
-                </menu>
-            </div>
-            <div class="contato">
-                <h4>Contato</h4>
-                <menu>
-                    <li>
-                        <i class="fas fa-phone"></i>
-                        <p>(11) 4774-4700</p>
-                    </li>
-                    <li>
-                        <i class="fas fa-envelope"></i>
-                        <p>tonypizzaria@gmail.com</p>
-                    </li>
-                    <li>
-                        <i class="fas fa-map-marker-alt"></i>
-                        <p>Rua do salgados, 211 Centro, Jandira</p>
-                    </li>
-                </menu>
-            </div>
-            <div class="contato social">
-                <menu>
-                    <li>
-                        <a href="#">
-                            <i class="fab fa-youtube"></i>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <i class="fab fa-twitter"></i>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <i class="fab fa-instagram"></i>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <i class="fab fa-facebook-f"></i>
-                        </a>
-                    </li>
-                </menu>
-            </div>
+      <div class="contatos-container">
+        <div class="contato logo">
+          <img src="./img/logo-branco.svg" alt="" />
         </div>
-        <div class="copy-right">
-            © 2025 Tony Pizzaria | Todos os Direitos Reservados | Desenvolvido por Nathan da Silva Costa
+        <div class="contato">
+          <h4>Links</h4>
+          <menu>
+            <li>
+              <a href="#">Home</a>
+            </li>
+            <li>
+              <a href="#">Cardápio</a>
+            </li>
+            <li>
+              <a href="#">Serviço</a>
+            </li>
+            <li>
+              <a href="#">Contato</a>
+            </li>
+            <li>
+              <a href="#">Login</a>
+            </li>
+          </menu>
         </div>
+        <div class="contato">
+          <h4>Contato</h4>
+          <menu>
+            <li>
+              <i class="fas fa-phone"></i>
+              <p>(11) 4774-4700</p>
+            </li>
+            <li>
+              <i class="fas fa-envelope"></i>
+              <p>tonypizzaria@gmail.com</p>
+            </li>
+            <li>
+              <i class="fas fa-map-marker-alt"></i>
+              <p>Rua do salgados, 211 Centro, Jandira</p>
+            </li>
+          </menu>
+        </div>
+        <div class="contato social">
+          <menu>
+            <li>
+              <a href="#">
+                <i class="fab fa-youtube"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <i class="fab fa-twitter"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <i class="fab fa-instagram"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+            </li>
+          </menu>
+        </div>
+      </div>
+      <div class="copy-right">
+        © 2025 Tony Pizzaria | Todos os Direitos Reservados | Desenvolvido por
+        Nathan da Silva Costa
+      </div>
     </footer>
-</body>
-
+  </body>
 </html>
